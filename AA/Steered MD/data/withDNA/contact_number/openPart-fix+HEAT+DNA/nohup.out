@@ -1,0 +1,118 @@
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/analysis/contact_number/openPart-fix+HEAT+DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/1/pull.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/1/pull.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/1/index.ndx -on 1.xvg
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/1/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/1/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17271 elements
+Group     1 (           SOLV) has 727482 elements
+Group     2 (         SYSTEM) has 744753 elements
+Group     3 (           HEAT) has 13744 elements
+Group     4 (        FirstCa) has     1 elements
+Group     5 (HEAT_and_name_CA_and_res_com_z_<_140) has   186 elements
+Group     6 (        kleisin) has  2385 elements
+Group     7 (kleisin_open_part) has  1245 elements
+Group     8 (kleisin_fix_part) has  1140 elements
+Group     9 (            DNA) has  1142 elements
+Group    10 (HEAT_kleisin_fix_part_DNA) has 16026 elements
+Group    11 (kleisin_fix_part_DNA) has  2282 elements
+Select a group: Select a group: Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   
+
+GROMACS reminds you: "California, R.I.P." (Red Hot Chili Peppars)
+
+Selected 7: 'kleisin_open_part'
+Selected 10: 'HEAT_kleisin_fix_part_DNA'
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/analysis/contact_number/openPart-fix+HEAT+DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/2/pull.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/2/pull.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/2/index.ndx -on 2.xvg
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/2/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/2/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17271 elements
+Group     1 (           SOLV) has 727482 elements
+Group     2 (         SYSTEM) has 744753 elements
+Group     3 (           HEAT) has 13744 elements
+Group     4 (        FirstCa) has     1 elements
+Group     5 (HEAT_and_name_CA_and_res_com_z_<_140) has   186 elements
+Group     6 (        kleisin) has  2385 elements
+Group     7 (kleisin_open_part) has  1245 elements
+Group     8 (kleisin_fix_part) has  1140 elements
+Group     9 (            DNA) has  1142 elements
+Group    10 (HEAT_kleisin_fix_part_DNA) has 16026 elements
+Group    11 (kleisin_fix_part_HEAT) has 14884 elements
+Select a group: Select a group: Reading frame       0 time    0.000   
+Back Off! I just backed up mindist.xvg to ./#mindist.xvg.1#
+Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   
+
+GROMACS reminds you: "Chemistry: It tends to be a messy science." (Gunnar von Heijne, former chair of the Nobel Committee for chemistry)
+
+Selected 7: 'kleisin_open_part'
+Selected 10: 'HEAT_kleisin_fix_part_DNA'
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/analysis/contact_number/openPart-fix+HEAT+DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/3/pull.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/3/pull.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/3/index.ndx -on 3.xvg
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/3/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/3/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17271 elements
+Group     1 (           SOLV) has 727482 elements
+Group     2 (         SYSTEM) has 744753 elements
+Group     3 (           HEAT) has 13744 elements
+Group     4 (        FirstCa) has     1 elements
+Group     5 (HEAT_and_name_CA_and_res_com_z_<_140) has   186 elements
+Group     6 (        kleisin) has  2385 elements
+Group     7 (kleisin_open_part) has  1245 elements
+Group     8 (kleisin_fix_part) has  1140 elements
+Group     9 (            DNA) has  1142 elements
+Group    10 (HEAT_kleisin_fix_part_DNA) has 16026 elements
+Group    11 (kleisin_fix_part_HEAT) has 14884 elements
+Select a group: Select a group: Reading frame       0 time    0.000   
+Back Off! I just backed up mindist.xvg to ./#mindist.xvg.2#
+Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   
+
+GROMACS reminds you: "User-friendly, adj.: Programmer-hostile." (New Hacker's Dictionary)
+
+Selected 7: 'kleisin_open_part'
+Selected 10: 'HEAT_kleisin_fix_part_DNA'
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/analysis/contact_number/openPart-fix+HEAT+DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/4/pull.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/4/pull.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/4/index.ndx -on 4.xvg
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/4/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/SteeredMD/2SMD_1protonataing+DNA/4/pull.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17271 elements
+Group     1 (           SOLV) has 727482 elements
+Group     2 (         SYSTEM) has 744753 elements
+Group     3 (           HEAT) has 13744 elements
+Group     4 (        FirstCa) has     1 elements
+Group     5 (HEAT_and_name_CA_and_res_com_z_<_140) has   186 elements
+Group     6 (        kleisin) has  2385 elements
+Group     7 (kleisin_open_part) has  1245 elements
+Group     8 (kleisin_fix_part) has  1140 elements
+Group     9 (            DNA) has  1142 elements
+Group    10 (HEAT_kleisin_fix_part_DNA) has 16026 elements
+Group    11 (kleisin_fix_part_HEAT) has 14884 elements
+Select a group: Select a group: Reading frame       0 time    0.000   
+Back Off! I just backed up mindist.xvg to ./#mindist.xvg.3#
+Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   
+
+GROMACS reminds you: "Home computers are being called upon to perform many new functions, including the consumption of homework formerly eaten by the dog." (Doug Larson)
+
+Selected 7: 'kleisin_open_part'
+Selected 10: 'HEAT_kleisin_fix_part_DNA'

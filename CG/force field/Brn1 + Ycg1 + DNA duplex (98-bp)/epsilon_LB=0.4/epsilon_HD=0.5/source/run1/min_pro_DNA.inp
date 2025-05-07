@@ -1,0 +1,55 @@
+[INPUT] 
+grotopfile     = Fullpro_98bp_cg.top # topology file
+grocrdfile     = Fullpro_98bp_cg.gro # coordinate file
+
+[OUTPUT] 
+pdbfile = min_run.pdb
+dcdfile = min_run.dcd
+rstfile = min_run.rst
+
+[ENERGY] 
+forcefield = RESIDCG
+electrostatic = CUTOFF
+cg_cutoffdist_ele = 52.0
+cg_cutoffdist_DNAbp = 18.0
+cg_pairlistdist_ele = 57.0
+cg_pairlistdist_DNAbp = 23.0
+cg_pairlistdist_exv = 15.0
+cg_sol_ionic_strength = 0.15
+cg_pro_DNA_ele_scale_Q = -1.0
+
+[MINIMIZE] 
+method = SD
+nsteps =20000
+eneout_period = 50
+crdout_period = 50
+rstout_period = 20000
+nbupdate_period = 10 
+
+[CONSTRAINTS] 
+rigid_bond = NO
+
+[ENSEMBLE] 
+ensemble = NVT
+tpcontrol = LANGEVIN
+temperature = 310
+gamma_t = 0.01
+
+[BOUNDARY]
+type                = NOBC         # periodic boundary condition
+
+[SELECTION]
+group1               =(ano:1111-1163 or ano:1404-1456) and an:DB
+group2               =ano:1-848
+
+[RESTRAINTS]
+nfunctions           = 1
+function1            = FB
+constant1            = 1000.0
+reference1           = 100.0
+select_index1        = 1 2
+
+[FITTING]
+fitting_method = TR+ROT
+fitting_atom   = 1
+mass_weight    = NO
