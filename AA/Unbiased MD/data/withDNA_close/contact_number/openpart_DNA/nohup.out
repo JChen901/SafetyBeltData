@@ -1,0 +1,84 @@
+submit_gpu.sh: 7: source: not found
+submit_gpu.sh: 11: Syntax error: Bad for loop variable
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/analysis/contact_number/openpart_DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/1/md.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/1/md.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/1/index.ndx -on 1.xvg -b 0 -e 1000000
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/1/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/1/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17272 elements
+Group     1 (           SOLV) has 463733 elements
+Group     2 (         SYSTEM) has 481005 elements
+Group     3 (           HEAT) has 13745 elements
+Group     4 (        kleisin) has  2385 elements
+Group     5 (            DNA) has  1142 elements
+Group     6 (kleisin_openpart) has  1245 elements
+Group     7 (    kleisin_fix) has  1140 elements
+Group     8 (HEAT_kleisin_fix) has 14885 elements
+Group     9 (HEAT_DNA_kleisin_fix) has 16027 elements
+Select a group: Select a group: Reading frame       0 time    0.000   Reading frame       1 time  100.000   Reading frame       2 time  200.000   Reading frame       3 time  300.000   Reading frame       4 time  400.000   Reading frame       5 time  500.000   Reading frame       6 time  600.000   Reading frame       7 time  700.000   Reading frame       8 time  800.000   Reading frame       9 time  900.000   Reading frame      10 time 1000.000   Reading frame      11 time 1100.000   Reading frame      12 time 1200.000   Reading frame      13 time 1300.000   Reading frame      14 time 1400.000   Reading frame      15 time 1500.000   Reading frame      16 time 1600.000   Reading frame      17 time 1700.000   Reading frame      18 time 1800.000   Reading frame      19 time 1900.000   Reading frame      20 time 2000.000   Reading frame      30 time 3000.000   Reading frame      40 time 4000.000   Reading frame      50 time 5000.000   Reading frame      60 time 6000.000   Reading frame      70 time 7000.000   Reading frame      80 time 8000.000   Reading frame      90 time 9000.000   Reading frame     100 time 10000.000   Reading frame     110 time 11000.000   Reading frame     120 time 12000.000   Reading frame     130 time 13000.000   Reading frame     140 time 14000.000   Reading frame     150 time 15000.000   Reading frame     160 time 16000.000   Reading frame     170 time 17000.000   Reading frame     180 time 18000.000   Reading frame     190 time 19000.000   Reading frame     200 time 20000.000   Reading frame     300 time 30000.000   Reading frame     400 time 40000.000   Reading frame     500 time 50000.000   Reading frame     600 time 60000.000   Reading frame     700 time 70000.000   Reading frame     800 time 80000.000   Reading frame     900 time 90000.000   Reading frame    1000 time 100000.000   Reading frame    1100 time 110000.000   Reading frame    1200 time 120000.000   Reading frame    1300 time 130000.000   Reading frame    1400 time 140000.000   Reading frame    1500 time 150000.000   Reading frame    1600 time 160000.000   Reading frame    1700 time 170000.000   Reading frame    1800 time 180000.000   Reading frame    1900 time 190000.000   Reading frame    2000 time 200000.000   Reading frame    3000 time 300000.000   Reading frame    4000 time 400000.000   Reading frame    5000 time 500000.000   Reading frame    6000 time 600000.000   Reading frame    7000 time 700000.000   Reading frame    8000 time 800000.000   Reading frame    9000 time 900000.000   Reading frame   10000 time 1000000.000   Last frame      10000 time 1000000.000   
+
+GROMACS reminds you: "She Needs Cash to Buy Aspirine For Her Pain" (LIVE)
+
+Selected 6: 'kleisin_openpart'
+Selected 5: 'DNA'
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/analysis/contact_number/openpart_DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/2/md.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/2/md.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/2/index.ndx -on 2.xvg -b 0 -e 1000000
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/2/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/2/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17272 elements
+Group     1 (           SOLV) has 463733 elements
+Group     2 (         SYSTEM) has 481005 elements
+Group     3 (           HEAT) has 13745 elements
+Group     4 (        kleisin) has  2385 elements
+Group     5 (            DNA) has  1142 elements
+Group     6 (kleisin_openpart) has  1245 elements
+Group     7 (    kleisin_fix) has  1140 elements
+Group     8 (HEAT_kleisin_fix) has 14885 elements
+Group     9 (HEAT_DNA_kleisin_fix) has 16027 elements
+Select a group: Select a group: Reading frame       0 time    0.000   
+Back Off! I just backed up mindist.xvg to ./#mindist.xvg.1#
+Reading frame       1 time  100.000   Reading frame       2 time  200.000   Reading frame       3 time  300.000   Reading frame       4 time  400.000   Reading frame       5 time  500.000   Reading frame       6 time  600.000   Reading frame       7 time  700.000   Reading frame       8 time  800.000   Reading frame       9 time  900.000   Reading frame      10 time 1000.000   Reading frame      11 time 1100.000   Reading frame      12 time 1200.000   Reading frame      13 time 1300.000   Reading frame      14 time 1400.000   Reading frame      15 time 1500.000   Reading frame      16 time 1600.000   Reading frame      17 time 1700.000   Reading frame      18 time 1800.000   Reading frame      19 time 1900.000   Reading frame      20 time 2000.000   Reading frame      30 time 3000.000   Reading frame      40 time 4000.000   Reading frame      50 time 5000.000   Reading frame      60 time 6000.000   Reading frame      70 time 7000.000   Reading frame      80 time 8000.000   Reading frame      90 time 9000.000   Reading frame     100 time 10000.000   Reading frame     110 time 11000.000   Reading frame     120 time 12000.000   Reading frame     130 time 13000.000   Reading frame     140 time 14000.000   Reading frame     150 time 15000.000   Reading frame     160 time 16000.000   Reading frame     170 time 17000.000   Reading frame     180 time 18000.000   Reading frame     190 time 19000.000   Reading frame     200 time 20000.000   Reading frame     300 time 30000.000   Reading frame     400 time 40000.000   Reading frame     500 time 50000.000   Reading frame     600 time 60000.000   Reading frame     700 time 70000.000   Reading frame     800 time 80000.000   Reading frame     900 time 90000.000   Reading frame    1000 time 100000.000   Reading frame    1100 time 110000.000   Reading frame    1200 time 120000.000   Reading frame    1300 time 130000.000   Reading frame    1400 time 140000.000   Reading frame    1500 time 150000.000   Reading frame    1600 time 160000.000   Reading frame    1700 time 170000.000   Reading frame    1800 time 180000.000   Reading frame    1900 time 190000.000   Reading frame    2000 time 200000.000   Reading frame    3000 time 300000.000   Reading frame    4000 time 400000.000   Reading frame    5000 time 500000.000   Reading frame    6000 time 600000.000   Reading frame    7000 time 700000.000   Reading frame    8000 time 800000.000   Reading frame    9000 time 900000.000   Reading frame   10000 time 1000000.000   Last frame      10000 time 1000000.000   
+
+GROMACS reminds you: "The Universe is Somewhere In Here" (J.G.E.M. Fraaije)
+
+Selected 6: 'kleisin_openpart'
+Selected 5: 'DNA'
+               :-) GROMACS - gmx mindist, 2022.5-plumed_2.8.3 (-:
+
+Executable:   /usr/local/gromacs-plumed/bin/gmx
+Data prefix:  /usr/local/gromacs-plumed
+Working dir:  /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/analysis/contact_number/openpart_DNA
+Command line:
+  gmx mindist -f /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/3/md.xtc -s /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/3/md.tpr -n /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/3/index.ndx -on 3.xvg -b 0 -e 1000000
+
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/3/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Reading file /data/jychen/MD_projects/SMC/All_Atoms/normalMD/Fullpro_DNA+1protonating/3/md.tpr, VERSION 2022.5-plumed_2.8.3 (single precision)
+Group     0 (           SOLU) has 17272 elements
+Group     1 (           SOLV) has 463733 elements
+Group     2 (         SYSTEM) has 481005 elements
+Group     3 (           HEAT) has 13745 elements
+Group     4 (        kleisin) has  2385 elements
+Group     5 (            DNA) has  1142 elements
+Group     6 (kleisin_openpart) has  1245 elements
+Group     7 (    kleisin_fix) has  1140 elements
+Group     8 (HEAT_kleisin_fix) has 14885 elements
+Group     9 (HEAT_DNA_kleisin_fix) has 16027 elements
+Select a group: Select a group: Reading frame       0 time    0.000   
+Back Off! I just backed up mindist.xvg to ./#mindist.xvg.2#
+Reading frame       1 time  100.000   Reading frame       2 time  200.000   Reading frame       3 time  300.000   Reading frame       4 time  400.000   Reading frame       5 time  500.000   Reading frame       6 time  600.000   Reading frame       7 time  700.000   Reading frame       8 time  800.000   Reading frame       9 time  900.000   Reading frame      10 time 1000.000   Reading frame      11 time 1100.000   Reading frame      12 time 1200.000   Reading frame      13 time 1300.000   Reading frame      14 time 1400.000   Reading frame      15 time 1500.000   Reading frame      16 time 1600.000   Reading frame      17 time 1700.000   Reading frame      18 time 1800.000   Reading frame      19 time 1900.000   Reading frame      20 time 2000.000   Reading frame      30 time 3000.000   Reading frame      40 time 4000.000   Reading frame      50 time 5000.000   Reading frame      60 time 6000.000   Reading frame      70 time 7000.000   Reading frame      80 time 8000.000   Reading frame      90 time 9000.000   Reading frame     100 time 10000.000   Reading frame     110 time 11000.000   Reading frame     120 time 12000.000   Reading frame     130 time 13000.000   Reading frame     140 time 14000.000   Reading frame     150 time 15000.000   Reading frame     160 time 16000.000   Reading frame     170 time 17000.000   Reading frame     180 time 18000.000   Reading frame     190 time 19000.000   Reading frame     200 time 20000.000   Reading frame     300 time 30000.000   Reading frame     400 time 40000.000   Reading frame     500 time 50000.000   Reading frame     600 time 60000.000   Reading frame     700 time 70000.000   Reading frame     800 time 80000.000   Reading frame     900 time 90000.000   Reading frame    1000 time 100000.000   Reading frame    1100 time 110000.000   Reading frame    1200 time 120000.000   Reading frame    1300 time 130000.000   Reading frame    1400 time 140000.000   Reading frame    1500 time 150000.000   Reading frame    1600 time 160000.000   Reading frame    1700 time 170000.000   Reading frame    1800 time 180000.000   Reading frame    1900 time 190000.000   Reading frame    2000 time 200000.000   Reading frame    3000 time 300000.000   Reading frame    4000 time 400000.000   Reading frame    5000 time 500000.000   Reading frame    6000 time 600000.000   Reading frame    7000 time 700000.000   Reading frame    8000 time 800000.000   Reading frame    9000 time 900000.000   Reading frame   10000 time 1000000.000   Last frame      10000 time 1000000.000   
+
+GROMACS reminds you: "Science is the great antidote to the poison of enthusiasm and superstition." (Adam Smith, Wealth of Nations, 1776)
+
+Selected 6: 'kleisin_openpart'
+Selected 5: 'DNA'
